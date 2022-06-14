@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 300px;
+    max-height: auto;
+}
+
+button{
+    display: inline-block;
+    border: solid;
+    border-color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    background-color: #1DA1F2;
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #032b54;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.header {  
+    display: flex;
+    background-color: #032b54;
+    justify-content: space-evenly;
+    align-items: baseline;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 10px;
+    
+}
+
+.header-link {
+    display: flex;
+    gap: 20px;
+}
+
+.sec-one {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #032b54;
+    color: white;
+    padding: 20px;
+}
+
+.sec-one-left{
+    flex-wrap: wrap;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.large-text {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.sec-title {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 800;
+}
+
+.sec-two {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+.small-img {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sec-three {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 100px 200px;
+    gap: 5px;
+}
+
+.quote {
+    font-size: 26px;
+    color: gray
+}
+
+.signature {
+    font-weight: 900;
+    text-align: end;
+}
+.sec-four{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1DA1F2;
+    margin: 50px 100px;
+    border-radius: 4px;
+    padding: 30px 50px;
+    color: white;
+}
+
+.sec-four-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.notification-title {
+    font-size: 20px;
+    font-weight: 600;
+}
